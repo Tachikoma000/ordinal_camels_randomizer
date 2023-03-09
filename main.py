@@ -32,7 +32,7 @@ def app():
     st.write("This app allocates an Ordinal Camel to an OG. Your Camel awaits you!")
         
     # Define a button to select 20 random OG wallets for Inscription IDs
-    if st.button("Select 20 Random OG Wallets for Inscription IDs"):
+    if st.button("Match OGs with Camels"):
         # Select 20 random OG wallets for Inscription IDs
         selected_pairs = select_random_wallets_for_inscriptions()
         
